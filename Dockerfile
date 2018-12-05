@@ -11,7 +11,7 @@ rm -f /opt/tomcat/tomcat.zip && \
 useradd tomcat -u ${TOMCAT_ID} --no-create-home -d ${TOMCAT_HOME} && \
 chown -R tomcat: ${TOMCAT_HOME}
 
-ADD helloworld-ws-1.3.war
+COPY . /opt/tomcat/webapps/
 
 USER tomcat
 
