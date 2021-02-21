@@ -1,5 +1,4 @@
 FROM openjdk:8u282-jre
-
 LABEL maintainer="uzabauski@gmail.com"
 
 ARG TOMCAT_ID=1000
