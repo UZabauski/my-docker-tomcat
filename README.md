@@ -3,7 +3,7 @@ My custom dockerized Apache Tomcat 10.
 
 ## How to build
 ```bash
-docker build -t uzabauski/tomcat:1.0.1
+docker build -t uzabauski/tomcat:1.0.1 .
 ```
 
 ## How to run
